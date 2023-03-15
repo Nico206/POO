@@ -1,5 +1,6 @@
 package intro;
 
+
 import java.util.Scanner;
 
 public class Movie {
@@ -11,8 +12,20 @@ public class Movie {
     String category;
     public String director;
 
+    
+    
+    
     // Los metodos
-      
+    public Movie(){
+
+    }
+    public Movie(String _name,double _duration, String _category, String _director){
+        name= _name;
+        duration=_duration;
+        category= _category;
+        director=_director;
+    }
+
     public void addMovie(){
         System.out.println("Ingrese el nombre de la pelicula");
         name=lectura.nextLine();
@@ -41,5 +54,11 @@ public class Movie {
 
 
     }    
+    public void mostrarInfo(){
+        System.out.println("El nombre es " + name + "la duracion en minutos es " + duration + " la categoria es " +  category + " y el director es " + director);
 
+    }
+   
+
+   
 }

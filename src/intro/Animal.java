@@ -11,8 +11,20 @@ public class Animal {
     String nombre;
     int edad;
 
-
+    
     // Metodos
+ //METODO CONSTRUCTOR VACIO
+    public Animal(){
+
+    }
+//METODO CONSTRUCTOR LLENO O CON ARGUMENTOS
+    public Animal(String _nombre,int _edad){
+        nombre=_nombre;
+        edad= _edad;
+
+    }
+    
+
     
     public void  registrarAnimal(){
         //Cuerpo del metodo

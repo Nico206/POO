@@ -1,6 +1,6 @@
 package intro;
 
-import salud.Persona;
+
 
 public class Prueba {
      public static void main(String[] args) {
@@ -8,7 +8,8 @@ public class Prueba {
 
         //panda.registrarAnimal();//Invocar o llamar el metodo
         //panda.mostarAnimal();
-
+        Movie avatar= new Movie("avatar",120,"Ciencia Ficcion","yo");
+        avatar.mostrarInfo();
         Movie avengers= new Movie();
 
         avengers.addMovie();
