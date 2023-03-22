@@ -46,7 +46,7 @@ public class Persona {
         System.out.println("Su estatura es " + estatura);
         System.out.println("Su edad es  " + edad );       
         System.out.println("Su sexo es " + sexo);
-        
+                                            
     
     }
     public void calcularImc(){
